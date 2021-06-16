@@ -18,7 +18,7 @@ boolean = True                  #bool True/Fasle or 1/0
 
 
 
-print(type(complex_number))            #type() function returns the type of the variable
+print(type(integer))            #type() function returns the type of the variable
                                 #print() function prints the output
 #Change the variables to see their type eg. integer, real, complex_number, word, boolean,
 
@@ -82,7 +82,7 @@ x=bool({})
 #Operations 
 
 #Arithmetic Operators: +, -, *, /, %(mod), **(Power), //(floor division)
-x=5//3
+x=5+3
 print(x)
 #Change the operator to see the effect
 
@@ -95,14 +95,43 @@ print(x)
 
 
 #Logical Operators: and, or, not
+
 #Bitwise Operators: &(and), |(or), ^(X-or), ~(not), <<(left shift), >>(right shift)
 #For details "https://www.w3schools.com/python/python_operators.asp"
 
 
 
 
+#input
+x=input()
+print(x)
 
-#conditional logic--> any(), some() 
+y=input("inter your name: ")
+print(y)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#any(), some() 
 
 #other type 
 """Sequence Types:	list, tuple, range
